@@ -1,0 +1,16 @@
+{
+	"tecnologiasFrontend": [
+		{
+			"id": "1",
+			"name": "Javascript",
+			"description": "Es el lenguaje mas utilizado en la web, muy dinamico",
+			"company": "Mozilla Foundation"
+		},
+    {
+			"id": "2",
+			"name": "React",
+			"description": "Es una libreria orientada a componentes reutilizables, en los cuales se combina html con js",
+			"company": "Facebook"
+		}
+]
+}

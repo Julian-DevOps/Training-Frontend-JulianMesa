@@ -1,0 +1,45 @@
+.navbar{
+  background-color: white
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+.probandoFuente{
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  color: black;
+}
+
+
+.links:hover{
+  font-family: "Kalam", cursive;
+   transition: 1.2s;
+   font-weight: 400;
+   font-size: 25px;
+
+
+}
+
+.menu{
+    background-color: black;
+}
+
+
+#navbar{
+  width: 100%;
+}
+
+.form{
+  width: 60%;
+  margin-left: 20%;
+
+}
+
+
+#pais{
+  width: 28%;
+  margin-left: 10%;
+
+}

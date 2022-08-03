@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md navbar-light sticky-top" id="navbar">
+  <div class="container-fluid">
+    <div class="divTitulo">
+      <p class="probandoFuente">Development Technologies</p>
+    </div>
+
+    <form [formGroup]="cityValue" class="form">
+      <select id="pais"  (change)="changeCity($event)">
+        <option selected="selected" value="menu" >Menu de tecnologias</option>
+        <option  value="Frontend" >*Frontend</option>
+        <option value="Backend" >*Backend</option>
+        <option value="Devops" >*Devops</option>
+      </select>
+    </form>
+  </div>
+</nav>
+
+<app-frontend *ngIf="frontend"></app-frontend>
+<app-backend *ngIf="backend"></app-backend>
+<app-devops *ngIf="devops"></app-devops>
+
+
+

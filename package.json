@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "serverfront": "json-server --port 5003 ./src/app/server/server/frontendDb.json",
+    "serverback": "json-server --port 5004 ./src/app/server/server/backendDb.json",
+    "serverdevs": "json-server --port 5005 ./src/app/server/server/devopsDb.json",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -19,6 +22,8 @@
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
     "rxjs": "~7.5.0",
+    "json-server": "^0.17.0",
+    "bootstrap": "^5.2.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

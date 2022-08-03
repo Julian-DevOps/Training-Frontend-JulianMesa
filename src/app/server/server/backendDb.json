@@ -1,0 +1,17 @@
+{
+	"tecnologiasBackend": [
+		{
+			"id": "1",
+			"name": "Python",
+			"description": "Python es un lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites",
+			"company": "Python Software Foundation"
+		},
+    {
+			"id": "2",
+			"name": "Spring Boot",
+			"description": "Spring Boot es una tecnología que nos permite crear aplicaciones autocontenidas, con esto nos podemos olvidar de la arquitectura y enfocarnos únicamente en desarrollo, delegando a Spring Boot labores como configuración de dependencias, desplegar nuestro servicio o aplicación a un servidor de aplicaciones ",
+			"company": "Liberty "
+		}
+
+]
+}

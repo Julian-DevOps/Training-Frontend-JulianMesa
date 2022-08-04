@@ -4,7 +4,7 @@
 
 #### Debes tener una cuenta en GitLab para poder acceder a la siguiente url,la cual te permitira clonar el proyecto en tu maquina local:
 
-[(git@gitlab.com:julian.mesa2/sofka-devops-app-angular.git)]
+[Repositorio GitLab](git@gitlab.com:julian.mesa2/sofka-devops-app-angular.git)
 
 AL momento de entrar con la url le aparecera la siguiente interfaz en GitLab:
 

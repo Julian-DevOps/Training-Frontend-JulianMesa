@@ -8,10 +8,11 @@ import { Observable } from 'rxjs';
 export class FrontendService {
   constructor(private http: HttpClient) {}
 
-  private url: string = 'http://localhost:5003/tecnologiasFrontend';
+
+  private url: string = 'http://localhost:8080/';
 
   getTecnologiasFrontAll(): Observable<any> {
-    let direction = this.url;
+    let direction = this.url + "frontend/get/all";
     return this.http.get<any>(direction);
   }
 }

@@ -8,10 +8,10 @@ import { Observable } from 'rxjs';
 export class BackendService {
   constructor(private http: HttpClient) {}
 
-  private url: string = 'http://localhost:5004/tecnologiasBackend';
+  private url: string = 'http://localhost:8080/';
 
   getTecnologiasBackAll(): Observable<any> {
-    let direction = this.url;
+    let direction = this.url + "backend/get/all";
     return this.http.get<any>(direction);
   }
 }

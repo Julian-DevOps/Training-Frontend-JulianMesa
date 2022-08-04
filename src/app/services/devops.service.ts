@@ -7,10 +7,10 @@ import { Observable } from 'rxjs';
 export class DevopsService {
   constructor(private http: HttpClient) {}
 
-  private url: string = 'http://localhost:5005/tecnologiasDevops';
+  private url: string = 'http://localhost:8080/';
 
   getTecologiasDevAll(): Observable<any> {
-    let direction = this.url;
+    let direction = this.url + "devops/get/all";
     return this.http.get<any>(direction);
   }
 }
